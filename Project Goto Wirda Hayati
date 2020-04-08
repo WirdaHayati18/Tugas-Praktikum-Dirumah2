@@ -1,0 +1,25 @@
+#include <iostream>
+#include <string>
+using namespace std;
+int main ( ) {
+	string nama = "Wirda Hayati";
+	string nim = "ETE10190122";
+	cout << endl;
+	cout << "~~~~~~~~~~~~~~~SELASA, 07 April 2020~~~~~~~~~~~~~~";
+	cout << endl;
+	cout << "Nama : " << nama << endl;
+	cout << "NIM : " << nim;
+	cout << endl;
+	cout << endl;
+	//Membuat Program Goto
+	char jump = 'S';
+	cout << "Masukkan huruf y untuk melompat [y] : " << endl;
+	cout << "Masukkan huruf t untuk tidak melompat [t] : " << endl;
+	cin >> jump;
+	cout << "A" << endl;
+		if (jump == 'y') goto lompat;
+	cout << "B" << endl;
+	lompat:
+		cout << "C" << endl;
+	return 0;
+}
